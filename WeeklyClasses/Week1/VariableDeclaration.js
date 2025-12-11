@@ -22,5 +22,5 @@ empname=123
 //let empname=true
 
 const final=34
-final="constant"
+//final="constant"
 //const final=true
