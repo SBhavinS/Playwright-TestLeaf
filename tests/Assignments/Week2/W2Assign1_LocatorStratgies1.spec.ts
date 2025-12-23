@@ -16,7 +16,8 @@
 15. Fill the Phone number
 16. Click Create Lead button
 17. Verify the company name, first name, last name and the status
-18. Get the page title*/
+18. Get the page title
+19. Verify the company name, first name, last name and the status using auto retrying and nonretrying assertions*/
 
 import { test } from '@playwright/test'
 
@@ -55,14 +56,32 @@ test("Create a Lead",async({page})=>{
     await page.locator("#createLeadForm_departmentName").fill("Sales")
     await page.locator("#createLeadForm_primaryPhoneNumber").fill("1234567890")
     await page.locator(".smallSubmit").click()
-    const companyName = await page.locator("#viewLead_companyName_sp").textContent()
-    const firstName = await page.locator("#viewLead_firstName_sp").textContent()
-    const lastName = await page.locator("#viewLead_lastName_sp").textContent()
-    const status = await page.locator("#viewLead_statusId_sp").textContent()
-    console.log(`Company Name: ${companyName}`)
-    console.log(`First Name: ${firstName}`)
-    console.log(`Last Name: ${lastName}`)
-    console.log(`Status: ${status}`)
-    const pageTitle = await page.title()
-    console.log(`Page Title: ${pageTitle}`)
+    // Wait for lead to be created and details page to load
+    await page.waitForTimeout(2000)
+
+    // Verify the company name, first name, last name and the status using auto retrying and nonretrying assertions
+    const companyName = page.locator("#viewLead_companyName_sp")
+    const firstName = page.locator("#viewLead_firstName_sp")
+    const lastName = page.locator("#viewLead_lastName_sp")
+    const status = page.locator("#viewLead_statusId_sp")    
+    await test.expect(companyName).toHaveText(/ABC Corp/)
+    await test.expect(firstName).toHaveText("John")
+    await test.expect(lastName).toHaveText("Doe")
+    await test.expect(status).toHaveText("New")
+
+    
+
+    // const companyName = await page.locator("#viewLead_companyName_sp").textContent()
+    // const firstName = await page.locator("#viewLead_firstName_sp").textContent()
+    // const lastName = await page.locator("#viewLead_lastName_sp").textContent()
+    // const status = await page.locator("#viewLead_statusId_sp").textContent()
+
+    // console.log(`Company Name: ${companyName}`)
+    // console.log(`First Name: ${firstName}`)
+    // console.log(`Last Name: ${lastName}`)
+    // console.log(`Status: ${status}`)
+    // const pageTitle = await page.title()
+    // console.log(`Page Title: ${pageTitle}`)
+
+
 })
