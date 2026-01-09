@@ -33,6 +33,7 @@ export default defineConfig({
     headless:false,
     screenshot:'on',
     video:'on',
+    permissions:['notifications'],
   },
 
   /* Configure projects for major browsers */

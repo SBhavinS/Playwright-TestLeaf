@@ -1,0 +1,91 @@
+{
+  "cookies": [
+    {
+      "name": "glide_user_route",
+      "value": "glide.7b5c5c407869e5ec95706454efd63d35",
+      "domain": "dev181504.service-now.com",
+      "path": "/",
+      "expires": 1802504165.166481,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "glide_node_id_for_js",
+      "value": "9c18f12d75d8992d7c37bd0c98ca24f73cff4560bd0f4f5c725e81e0db843374",
+      "domain": "dev181504.service-now.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__CJ_g_startTime",
+      "value": "%221767944171902%22",
+      "domain": "dev181504.service-now.com",
+      "path": "/",
+      "expires": 1767947771,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "3FCE60AFD8583B0F60E60274E06CF90E",
+      "domain": "dev181504.service-now.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "glide_user_activity",
+      "value": "U0N2M18xOmNBdjY2aDZObVh3blRHa1c3cCtpa0VaWjRmZm1ncW0wQUZKZkFFaXdsaDQ9OmY3V3M3YjltelpuT3hYWUtmQVgvN2ZKTnFHK2xSS1ZRclYxLzROWDZ0U0k9",
+      "domain": "dev181504.service-now.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "glide_session_store",
+      "value": "FCE37A02C39E7A105954BD33E4013131",
+      "domain": "dev181504.service-now.com",
+      "path": "/",
+      "expires": 1767949576.756183,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://dev181504.service-now.com",
+      "localStorage": [
+        {
+          "name": "simpleStorage",
+          "value": "{\"simpleStorageSynch\":\"d4525e79c3daf6105954bd33e40131de\",\"MSG_en_undefined\":1767944169319,\"MSG_en_about %d months ago\":\"about %d months ago\",\"MSG_en_Undo mark row for deletion\":\"Undo mark row for deletion\",\"MSG_en_a day ago\":\"a day ago\",\"MSG_en_Mandatory - must be populated before Submit\":\"Mandatory - must be populated before Submit\",\"MSG_en_Real-time\":\"Real-time\",\"MSG_en_Edit Widget Preferences\":\"Edit Widget Preferences\",\"MSG_en_lowercase_add\":\"add\",\"MSG_en_Showing rows {0} to {1} of {2}\":\"Showing rows {0} to {1} of {2}\",\"MSG_en_about a minute from now\":\"about a minute from now\",\"MSG_en_about %d months from now\":\"about %d months from now\",\"MSG_en_about a month from now\":\"about a month from now\",\"MSG_en_about %d years ago\":\"about %d years ago\",\"MSG_en_about %d hours ago\":\"about %d hours ago\",\"MSG_en_{0} suggestions. Please use the up and down arrow keys to select a value\":\"{0} suggestions. Please use the up and down arrow keys to select a value\",\"MSG_en_Catalog Categories\":\"Catalog Categories\",\"MSG_en_%d days from now\":\"%d days from now\",\"MSG_en_Mark row for deletion\":\"Mark row for deletion\",\"MSG_en_about an hour ago\":\"about an hour ago\",\"MSG_en_Select Widgets in \":\"Select Widgets in \",\"MSG_en_about a month ago\":\"about a month ago\",\"MSG_en_Field value has changed\":\"Field value has changed\",\"MSG_en_about a year ago\":\"about a year ago\",\"MSG_en_Sorted in descending order\":\"Sorted in descending order\",\"MSG_en_about %d minutes from now\":\"about %d minutes from now\",\"MSG_en_Delete row\":\"Delete row\",\"MSG_en_The following fields contain invalid value: {0}\":\"The following fields contain invalid value: {0}\",\"MSG_en_about %d years from now\":\"about %d years from now\",\"MSG_en_The following mandatory fields are not filled in: {0}\":\"The following mandatory fields are not filled in: {0}\",\"MSG_en_Add Content\":\"Add content\",\"MSG_en_Currently selected: \":\"Currently selected: \",\"MSG_en_Mark for deletion\":\"Mark for deletion\",\"MSG_en_Filter Widgets in \":\"Filter Widgets in \",\"MSG_en_a day from now\":\"a day from now\",\"MSG_en_about a minute ago\":\"about a minute ago\",\"MSG_en_NA\":\"NA\",\"MSG_en_Close Widget\":\"Close Widget\",\"MSG_en_Loading...\":\"Loading...\",\"MSG_en_Follow interactive filter\":\"Follow interactive filter\",\"MSG_en_Undo mark for deletion\":\"Undo mark for deletion\",\"MSG_en_Edit Widget\":\"Edit Widget\",\"MSG_en_lowercase_subtract\":\"subtract\",\"MSG_en_about a year from now\":\"about a year from now\",\"MSG_en_about %d minutes ago\":\"about %d minutes ago\",\"MSG_en_%d days ago\":\"%d days ago\",\"MSG_en_about an hour from now\":\"about an hour from now\",\"MSG_en_about %d hours from now\":\"about %d hours from now\",\"MSG_en_No response received from server\":\"No response received from server\"}"
+        },
+        {
+          "name": "__nxui__unified_cache__version",
+          "value": "b409e8c7-0f04-4cee-ac68-2606861ac526_018ada44ff37"
+        },
+        {
+          "name": "sn:e16ddabbdb2d3550ae4c9027c59619a2:a84adaf4c700201072b211d4d8c260b7:consent",
+          "value": "\"Full\""
+        },
+        {
+          "name": "sn:e16ddabbdb2d3550ae4c9027c59619a2:a84adaf4c700201072b211d4d8c260b7:user",
+          "value": "\"5df770fa60fb6ae1caf0326127e92a77c844a1b5484ae8adb201a396877b22c2\""
+        },
+        {
+          "name": "sn:e16ddabbdb2d3550ae4c9027c59619a2:a84adaf4c700201072b211d4d8c260b7:config",
+          "value": "{\"ClientId\":\"0\",\"SessionId\":\"bf2dd682e6514be0872d855ec9c03634\",\"MaxDataPointsPerHeartbeat\":1000,\"HeartbeatInterval\":15000,\"IdleTimeout\":1800000,\"SessionTimeout\":14400000,\"RecordMetadata\":true,\"RequestId\":\"\",\"AnalyticsChannelType\":\"\",\"AnalyticsChannelNumber\":-1,\"InstanceName\":\"\",\"ConfigReceivedTime\":0,\"ConfigReloadTime\":0,\"SessionIdCreatedTime\":1767944174127,\"AppUserId\":\"\",\"IgnorePerformanceData\":false,\"IsGettingConfiguration\":true,\"uxToken\":\"\",\"g_ck\":\"30e37a02c39e7a105954bd33e40131320b72e9f59f92519d013e2b74fad98920c95e8a61\",\"LastServerResponseTime\":1767944174126,\"ApiKey\":\"e16ddabbdb2d3550ae4c9027c59619a2:a84adaf4c700201072b211d4d8c260b7\",\"LastDatapointQueuedTime\":1767944174128}"
+        }
+      ]
+    }
+  ]
+}
