@@ -7,10 +7,10 @@ await page.locator("#user_name").fill("admin")
 await page.locator("#user_password").fill("F/*jyM6Q6pHh")
 await page.click("#sysverb_login")
 
-await page.waitForTimeout(7000)
+//await page.waitForTimeout(7000)
 //storage state -> json -> key:value 
 await page.context().storageState({path:"utils/serviceNow_Login.json"})
-await page.waitForTimeout(7000)
+//await page.waitForTimeout(7000)
 
 
 })
